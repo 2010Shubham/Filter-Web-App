@@ -1,0 +1,20 @@
+h1{
+    font-size: 25px !important;
+}
+
+#snap:hover{
+    background-color: red;
+}
+
+canvas{
+    border: 2px solid green; 
+    animation-name: rgbanimation;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+
+}
+
+@keyframes rgbanimation{
+    from{box-shadow:2px 2px 40px orange;}
+    to{box-shadow:2px 2px 40px green;}
+}
