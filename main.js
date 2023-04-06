@@ -4,7 +4,7 @@ var y = 0;
 
 
 function preload() {
-
+    img = loadImage("https://i.postimg.cc/brvBLCD5/mustache.png");
 }
 
 function setup() {
@@ -20,7 +20,7 @@ function setup() {
 function draw() {
     background("#bfbfff");
     image(video, 0, 0, 500, 500);
-
+    image(img, x-95, y, 100, 100)
 }
 
 function take_snapshot() {
