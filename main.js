@@ -20,7 +20,7 @@ function setup() {
 function draw() {
     background("#bfbfff");
     image(video, 0, 0, 500, 500);
-    image(img, x-95, y, 100, 100)
+    image(img, x-105, y, 100, 100)
 }
 
 function take_snapshot() {
